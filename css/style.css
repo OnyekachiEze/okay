@@ -1,0 +1,136 @@
+.container-btn {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-btn button {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: 0px;
+    border-radius: 3px;
+    box-shadow: 0 3px 14px rgba(50, 50, 93, 0.1);
+    transition: all 0.1s linear;
+    font-size: 12px;
+    outline: none;
+}
+
+.container-btn button.account  {
+    color: white;
+    text-decoration: none;
+    background-color: #7594e5;
+}
+.container-btn button.account a  {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.container-btn button.account:hover {
+    transform: translateY(-2px);
+    background: #77a6f8;
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.container-btn button.account:active {
+    transform: translateY(0px);
+    background: #7594e5;
+}
+
+.container-btn button.sales {
+    color: #7594e5;
+    background: white;
+    /* margin-left: 4rem; */
+}
+.container-btn button.sales a {
+    text-decoration: none;
+    color: #7594e5;
+    background: white;
+}
+
+.container-btn button.sales:hover {
+    transform: translateY(-2px);
+    color: #77a6f8;
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.container-btn button.sales:active {
+    transform: translateY(0px);
+    color: #7594e5;
+}
+
+
+.unique {
+    margin-top: 3rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.unique h1 {
+    font-size: 4rem;
+}
+
+.unique p {
+    color:slategray;
+}
+
+.unique-icons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icon-box {
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.icon-box i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    background: linear-gradient(to top right, #33ccff 28%, #ffffff 58%);
+    border-radius: 50%;
+    padding: 1rem;
+
+}
+
+.icon-box p {
+    font-size: 1rem;
+}
+
+.icon-box:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* MEET SECTION */
+.meet {
+    background-color: #0056b3;
+    color: white;
+    padding: 40px;
+    margin-top: 5rem;
+}
+
+.meet .meet-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    padding: 1rem;
+    background-color: #fff;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
